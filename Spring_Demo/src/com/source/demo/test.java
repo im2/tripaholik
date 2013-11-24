@@ -18,7 +18,7 @@ public class test {
 		return "home";
  
 	}
-	
+	//
 	@RequestMapping(value = "/addContact", method = RequestMethod.POST)
     public String addContact(@ModelAttribute("contact")
                             Contact contact, BindingResult result) {
